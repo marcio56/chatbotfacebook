@@ -1,0 +1,13 @@
+{
+  "name": "disk-agua-dinho-bot",
+  "version": "1.0.0",
+  "description": "Chatbot de Messenger (Facebook) da Disk Água Dinho",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "setup": "node setup.js",
+    "test": "DRY_RUN=1 node test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}
